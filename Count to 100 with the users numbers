@@ -1,0 +1,4 @@
+user1 = int(input("Enter the number to increment by: "))
+
+for i in range(0, 101, user1):
+    print(i)
