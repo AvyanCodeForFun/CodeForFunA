@@ -1,0 +1,10 @@
+favorite_movies = []
+
+for i in range(5):
+    movie = input(f"Enter your favorite movie #{i+1}: ")
+    favorite_movies.append(movie)
+
+favorite_movies.reverse()
+
+for movie in favorite_movies:
+    print(movie)
