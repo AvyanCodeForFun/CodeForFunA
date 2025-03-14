@@ -1,0 +1,14 @@
+number = int(input("Enter a number to generate its multiplication table: "))
+
+multiplication_table = []
+
+for i in range(1, 11):
+    result = number * i
+    multiplication_table.append(result)
+
+print(f"\nMultiplication table for {number} up to 10:")
+for i, result in enumerate(multiplication_table, 1):
+    print(f"{number} x {i} = {result}")
+
+print("\nList of multiplication results:")
+print(multiplication_table)
