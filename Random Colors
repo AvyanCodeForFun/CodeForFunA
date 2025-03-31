@@ -1,0 +1,9 @@
+import random
+
+colors = ["red", "blue", "green", "yellow", "orange", "purple"]
+
+def pick_random_color():
+    selected_color = random.choice(colors)
+    print(f"The selected color is: {selected_color}")
+
+pick_random_color()
